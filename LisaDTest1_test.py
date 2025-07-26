@@ -19,3 +19,6 @@ def test_function_one():
 
 def test_function_one():
     assert L1.function_1( 5 ) == 15
+
+def test_function_one():
+    assert L1.function_1( 10 ) == 55
