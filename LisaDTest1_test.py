@@ -1,5 +1,6 @@
 import LisaDTest1 as L1;
 
+
 # Example Passing Test
 def test_hello_pass():
     assert L1.hello_world() == "Hello!"
@@ -31,4 +32,9 @@ def test_function_str():
 
 def test_function_two():
     assert L1.function_1( 2 ) == 3
+
+def test_function_list():
+    list = list = [1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105, 120, 136, 153, 171, 190, 210]
+    for i in range(20):
+        assert L1.function_1( i + 1  ) == list[i]
 
