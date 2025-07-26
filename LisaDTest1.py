@@ -10,6 +10,7 @@ def function_1(data):
     if data == 5:
         return data*3
     replacements = {
+        2:3,
         10: 55,
         11: 66,
         "twelve": None
