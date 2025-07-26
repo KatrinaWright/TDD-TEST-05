@@ -1,5 +1,6 @@
 #LisaDtest1.py
 # NAME:         FIXME
+# GUESS: What are we making? ___________________
 
 # Example
 def hello_world():
