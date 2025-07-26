@@ -9,6 +9,8 @@ def hello_world():
 def function_1(data):
     if data == 5:
         return data*3
+    if data == 10:
+        data = 55
     return data
 
 def main():
