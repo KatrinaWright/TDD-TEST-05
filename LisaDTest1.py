@@ -19,6 +19,7 @@ def function_1(data):
     return replacements.get(data, data)
 
 def main():
+
     print(function_1(1))
 
 main()
