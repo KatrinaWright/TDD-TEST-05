@@ -11,6 +11,8 @@ def function_1(data):
         return data*3
     if data == 10:
         data = 55
+    if data == 11:
+        data = 66
     return data
 
 def main():
