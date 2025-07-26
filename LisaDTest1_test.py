@@ -17,8 +17,11 @@ def test_hello_pass():
 def test_function_one():
     assert L1.function_1( 1 ) == 1
 
-def test_function_one():
+def test_function_five():
     assert L1.function_1( 5 ) == 15
 
-def test_function_one():
+def test_function_ten():
     assert L1.function_1( 10 ) == 55
+
+def test_function_eleven():
+    assert L1.function_1( 11 ) == 66
