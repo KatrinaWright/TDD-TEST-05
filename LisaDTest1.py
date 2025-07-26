@@ -9,13 +9,13 @@ def hello_world():
 def function_1(data):
     if data == 5:
         return data*3
-    if data == 10:
-        data = 55
-    if data == 11:
-        data = 66
-    if data == "twelve":
-        data = None
-    return data
+    replacements = {
+        10: 55,
+        11: 66,
+        "twelve": None
+        }
+        
+    return replacements.get(data, data)
 
 def main():
     print(function_1(1))
