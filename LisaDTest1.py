@@ -13,6 +13,8 @@ def function_1(data):
         data = 55
     if data == 11:
         data = 66
+    if data == "twelve":
+        data = None
     return data
 
 def main():
