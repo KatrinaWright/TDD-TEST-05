@@ -25,3 +25,7 @@ def test_function_ten():
 
 def test_function_eleven():
     assert L1.function_1( 11 ) == 66
+
+def test_function_str():
+    assert L1.function_1( "twelve" ) == None
+
