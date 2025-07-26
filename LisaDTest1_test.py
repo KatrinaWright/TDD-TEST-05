@@ -16,3 +16,6 @@ def test_hello_pass():
 # Problem 1 Tests
 def test_function_one():
     assert L1.function_1( 1 ) == 1
+
+def test_function_one():
+    assert L1.function_1( 5 ) == 15
